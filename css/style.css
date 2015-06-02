@@ -1,0 +1,45 @@
+/*
+
+This is a comment in CSS. I'll explain how to do CSS! YAY!
+
+.class {
+    property: value;
+}
+
+tag {
+    property: value;
+}
+
+classes always use . 
+tags are predefined names such as h1, h2, p, ul, li, label, strong and do not require a . 
+classes can be named anything you want and tags cannot.
+
+*/
+
+
+
+/*this is an example of a class name that i made up*/
+
+.box {
+    background-color: #fff; /*this is the background color of the box*/
+    color: #000; /*this is the color of the font*/
+    width: 320px;
+    height: 332px;
+    padding: 30px;
+}
+
+.nav {
+    background-color: #ccc;
+}
+
+
+/*i am styling the ul that is within the nav class, as you can see the ul is a different color than nav. 
+The ul is a predefined tag and the .nav is a class name that i created*/
+
+.nav ul {
+    list-style: none; /*this gets rid of the bullets*/
+}
+
+h1 {
+    font-size: 30px;
+}
