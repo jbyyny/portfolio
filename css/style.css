@@ -16,21 +16,40 @@ classes can be named anything you want and tags cannot.
 
 */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.name {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: 700;
+}
 
 
 /*this is an example of a class name that i made up*/
 
 .box {
-    background-color: #fff; /*this is the background color of the box*/
+    background-color: #f1f1f1; /*this is the background color of the box*/
     color: #000; /*this is the color of the font*/
     width: 320px;
-    height: 332px;
+    height: 350px;
     padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px;
+    float: left;
 }
 
 .nav {
     background-color: #ccc;
 }
+li {
+    display: inline;
+    margin-right: 15px;}
+
 
 
 /*i am styling the ul that is within the nav class, as you can see the ul is a different color than nav. 
@@ -41,5 +60,6 @@ The ul is a predefined tag and the .nav is a class name that i created*/
 }
 
 h1 {
-    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
 }
