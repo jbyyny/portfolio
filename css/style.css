@@ -16,6 +16,11 @@ classes can be named anything you want and tags cannot.
 
 */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -25,31 +30,58 @@ body {
     font-family: 'Merriweather', serif;
     font-size: 30px;
     font-weight: 700;
+    float: left;
+    line-height: 50px;
 }
 
+.uh {
+    position: fixed;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 50px;
+    padding-left: 20px;
+}
 
+.role {
+    font-size: 14px;
+    float: left;
+    margin-left: 15px;
+    line-height: 50px;
+}
+
+.content {
+    padding-top: 70px;
+}
 /*this is an example of a class name that i made up*/
 
 .box {
-    background-color: #f1f1f1; /*this is the background color of the box*/
     color: #000; /*this is the color of the font*/
     width: 320px;
-    height: 350px;
+    height: 300px;
     padding: 30px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
     margin: 15px;
     float: left;
+    border: 1px solid #f1f1f1;
+}
+.nav {
+    margin-left: 15px;
+    float: left;
+    line-height: 50px;
 }
 
-.nav {
-    background-color: #ccc;
+.nav ul li a {
+    color: #5DC3BB;
+    font-size: 14px;
+    text-decoration: none;
 }
+
 li {
     display: inline;
-    margin-right: 15px;}
-
+    margin-right: 15px;
+}
 
 
 /*i am styling the ul that is within the nav class, as you can see the ul is a different color than nav. 
@@ -60,6 +92,7 @@ The ul is a predefined tag and the .nav is a class name that i created*/
 }
 
 h1 {
-    font-family: 'Merriweather', serif;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20px;
 }
