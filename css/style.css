@@ -28,26 +28,65 @@ body {
 }
 .name {
     font-family: 'Merriweather', serif;
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 400;
     float: left;
     line-height: 50px;
     padding-left: 20px;
+    color: #f1f1f1;
 }
 
 .uh {
     position: fixed;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #000;
     height: 50px;
 }
 
 .role {
-    font-size: 14px;
+    font-size: 13px;
     float: left;
     margin-left: 15px;
     line-height: 50px;
+    color: #f1f1f1;
 }
+.nav {
+    margin: 0 auto;
+    line-height: 50px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.nav ul li a {
+    color: #5DC3BB;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+img {
+    width: 320px;
+    display: inline-block;
+}
+
+li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/*i am styling the ul that is within the nav class, as you can see the ul is a different color than nav. 
+The ul is a predefined tag and the .nav is a class name that i created*/
+
+.nav ul {
+    list-style: none; /*this gets rid of the bullets*/
+}
+h1 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 20px;
+    color: #5DC3BB;
+}
+
 
 .tiletext {
     font-family: 'Open Sans', sans-serif;
@@ -69,40 +108,89 @@ body {
     float: left;
     border: 1px solid #f1f1f1;
 }
-.nav {
-    margin: 0 auto;
-    line-height: 50px;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-}
 
-.nav ul li a {
-    color: #5DC3BB;
-    font-size: 14px;
+/*RESUME STYLING*/
+
+h2 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #000;
     text-decoration: none;
 }
 
-img {
-    width: 320px;
-    display: inline-block;
+.resumetext {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 00;
+    margin: 20px;
 }
 
-li {
-    display: inline;
-    margin-right: 15px;
+.resume-button-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    float-right: 20px;
+    margin-right: 20px;
+    text-decoration: none;
 }
 
-
-/*i am styling the ul that is within the nav class, as you can see the ul is a different color than nav. 
-The ul is a predefined tag and the .nav is a class name that i created*/
-
-.nav ul {
-    list-style: none; /*this gets rid of the bullets*/
+.resume-button {
+    color: #5DC3BB;
+    line-height: 25px;
+    float-right: 20px;
+    margin-right: 20px;
 }
+/*how to make a button*/
 
-h1 {
-    font-size: 18px;
+h3 {
+    font-size: 13px;
     font-weight: 600;
-    padding-left: 20px;
+    margin: 20px;
+    text-decoration: none;
 }
+.jobtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.jobs-info {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.jobs-info ol li {
+    font-size: 13px;
+    list-style: none;
+    display: list-item;
+}
+
+.avatar {
+    outline-color: #f1f1f1;
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    float: left;
+}
+
+/*ABOUT STYLING*/
+.about-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
