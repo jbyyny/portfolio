@@ -118,11 +118,15 @@ h2 {
     text-decoration: none;
 }
 
+.resumetitle {
+    float: left;
+    width: 200px;
+}
+
 .resumetext {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 00;
-    margin: 20px;
 }
 
 .resume-button-text {
@@ -130,17 +134,23 @@ h2 {
     font-size: 13px;
     font-weight: 400;
     float-right: 20px;
-    margin-right: 20px;
     text-decoration: none;
 }
 
-.resume-button {
-    color: #5DC3BB;
-    line-height: 25px;
-    float-right: 20px;
+button {
     margin-right: 20px;
+    float: right;
+    background-color: #5DC3BB;
+    border-radius: 1px;
+    border: none;
 }
-/*how to make a button*/
+
+button a {
+    color: #f1f1f1;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
 
 h3 {
     font-size: 13px;
@@ -148,6 +158,7 @@ h3 {
     margin: 20px;
     text-decoration: none;
 }
+
 .jobtitle {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
