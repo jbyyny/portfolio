@@ -52,6 +52,12 @@ p {
     height: 50px;
 }
 
+.line {
+    border-bottom: 2px solid #5DC3BB;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
 .uhstuff {
     width: 1000px;
     margin: 0 auto;
@@ -118,10 +124,6 @@ h1 {
     margin: 15px;
 }
 
-.secondnav ul li .activeState {
-    color: #ff333A;
-}
-
 .project {
     padding-top: 40px;
     width: 1000px;
@@ -160,16 +162,22 @@ h1 {
     padding-top: 90px;
     margin: auto;
     text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #5DC3BB;
 }
 
 .secondnav a {
     font-size: 16px;
     text-decoration: none;
-    color: #188FFF;
+    color: #5DC3BB;
 }
 
 .secondnav ul li:hover {
     opacity: 0.6;
+}
+
+.secondnav ul li .activeState {
+    color: #188FFF;
 }
 
 .bg-recomm {
