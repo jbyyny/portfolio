@@ -104,7 +104,7 @@ img {
     margin-bottom: 15px;
 }
 
-li {
+.nav ul li {
     display: inline;
     margin-right: 15px;
 }
@@ -116,6 +116,16 @@ The ul is a predefined tag and the .nav is a class name that i created*/
     list-style: none;
     text-transform: capitalize;
 }
+
+.secondnav ul {
+    list-style: none;
+}
+
+.secondnav ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
 h1 {
     font-size: 18px;
     font-weight: 600;
@@ -293,12 +303,20 @@ h3 {
     padding-top: 5px;
     padding-bottom: 10px;
     line-height: 20px;
+    padding-left: 18px;
+}
+
+.jobs-info2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    line-height: 20px;
 }
 
 .jobs-info ol li {
     font-size: 13px;
-    list-style: none;
-    display: list-item;
 }
 
 .avatar {
