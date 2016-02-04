@@ -41,8 +41,6 @@ p {
 
 .splash {
     margin: 20px auto;
-    background-color: #ccc;
-    height: 500px;
     width: 1000px;
 }
 .uh {
@@ -91,11 +89,11 @@ p {
 .nav ul li .activeState {
     color: #fff;
 }
-
+/*
 img {
     width: 320px;
     display: inline-block;
-}
+}*/
 
 .profile img {
     width: 300px;
