@@ -29,7 +29,7 @@ body {
 .name {
     font-family: 'Pontano Sans', sans-serif;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 400;
     float: left;
     line-height: 50px;
     color: #f1f1f1;
@@ -126,7 +126,7 @@ The ul is a predefined tag and the .nav is a class name that i created*/
 
 h1 {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     color: #F49A07;
     width: 1000px;
 }
@@ -135,7 +135,7 @@ h1 {
 .tiletext {
     font-family: 'Pontano Sans', sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     margin: 15px;
 }
 
@@ -230,7 +230,7 @@ h1 {
 
 h2 {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 400;
     color: #000;
     text-decoration: none;
     margin-bottom: 10px;
@@ -282,7 +282,7 @@ button:hover {
 
 h3 {
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 400;
     margin: 20px;
     text-decoration: none;
 }
@@ -290,7 +290,7 @@ h3 {
 .job-title {
     font-family: 'Pontano Sans', sans-serif;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 400;
     padding-top: 10px;
 }
 
@@ -329,7 +329,7 @@ h3 {
 .about-title {
     font-family: 'Pontano Sans', sans-serif;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 400;
     padding-top: 10px;
     margin-right: 20px;
 }
