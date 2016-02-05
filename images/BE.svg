@@ -1,18 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="30px" height="30px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
-<g>
-	<path fill="#FFFFFF" d="M14.176,14.565c0,0,1.624-0.119,1.624-2.025c0-1.904-1.329-2.833-3.013-2.833H9.691H9.6L7.25,9.706v10.643
-		H9.6h0.091h3.097c0,0,3.382,0.106,3.382-3.142C16.17,17.207,16.316,14.565,14.176,14.565z M9.691,11.597h2.698h0.398
-		c0,0,0.754,0,0.754,1.107c0,1.109-0.443,1.268-0.945,1.268H9.691V11.597z M12.645,18.457H9.691v-2.843h3.097
-		c0,0,1.122-0.016,1.122,1.46C13.91,18.306,13.09,18.446,12.645,18.457z"/>
-	<g>
-		<path fill="#FFFFFF" d="M20.678,12.415c-4.094,0-4.09,4.089-4.09,4.089s-0.279,4.066,4.09,4.066c0,0,3.643,0.209,3.643-2.83
-			h-1.875c0,0,0.062,1.145-1.705,1.145c0,0-1.873,0.126-1.873-1.852h5.514C24.381,17.033,24.984,12.415,20.678,12.415z
-			 M22.342,15.614h-3.496c0,0,0.229-1.642,1.873-1.642S22.342,15.614,22.342,15.614z"/>
-		<rect x="18.389" y="10.334" fill="#FFFFFF" width="4.391" height="1.311"/>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 27 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-27-Copy" sketch:type="MSArtboardGroup">
+            <g id="be" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)">
+                <g id="Layer_1" sketch:type="MSShapeGroup">
+                    <ellipse id="Oval" fill="#F49A07" cx="13.956" cy="14.026" rx="13.415" ry="13.415"></ellipse>
+                    <g id="Group" transform="translate(5.000000, 8.000000)" fill="#FFFFFF">
+                        <path d="M7.176,5.565 C7.176,5.565 8.8,5.446 8.8,3.54 C8.8,1.636 7.471,0.707 5.787,0.707 L2.691,0.707 L2.6,0.707 L0.25,0.706 L0.25,11.349 L2.6,11.349 L2.691,11.349 L5.788,11.349 C5.788,11.349 9.17,11.455 9.17,8.207 C9.17,8.207 9.316,5.565 7.176,5.565 L7.176,5.565 Z M2.691,2.597 L5.389,2.597 L5.787,2.597 C5.787,2.597 6.541,2.597 6.541,3.704 C6.541,4.813 6.098,4.972 5.596,4.972 L2.691,4.972 L2.691,2.597 L2.691,2.597 Z M5.645,9.457 L2.691,9.457 L2.691,6.613 L5.788,6.613 C5.788,6.613 6.91,6.597 6.91,8.074 C6.91,9.306 6.09,9.446 5.645,9.457 L5.645,9.457 Z" id="Shape"></path>
+                        <g transform="translate(9.000000, 1.000000)">
+                            <path d="M4.678,2.415 C0.584,2.415 0.588,6.504 0.588,6.504 C0.588,6.504 0.309,10.57 4.678,10.57 C4.678,10.57 8.321,10.779 8.321,7.74 L6.446,7.74 C6.446,7.74 6.508,8.885 4.741,8.885 C4.741,8.885 2.868,9.011 2.868,7.033 L8.382,7.033 C8.381,7.033 8.984,2.415 4.678,2.415 L4.678,2.415 Z M6.342,5.613 L2.846,5.613 C2.846,5.613 3.075,3.972 4.719,3.972 C6.363,3.972 6.342,5.613 6.342,5.613 L6.342,5.613 Z" id="Shape"></path>
+                            <rect id="Rectangle-path" x="2.389" y="0.334" width="4.391" height="1.311"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>

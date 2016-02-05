@@ -22,12 +22,12 @@ classes can be named anything you want and tags cannot.
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 .name {
-    font-family: 'Merriweather', serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-size: 25px;
     font-weight: 400;
     float: left;
@@ -51,7 +51,7 @@ p {
 }
 
 .line {
-    border-bottom: 2px solid #5DC3BB;
+    border-bottom: 2px solid #F49A07;
     padding-bottom: 20px;
     margin-bottom: 10px;
 }
@@ -77,7 +77,7 @@ p {
 }
 
 .nav ul li a {
-    color: #5DC3BB;
+    color: #F49A07;
     font-size: 13px;
     text-decoration: none;
 }
@@ -125,17 +125,17 @@ The ul is a predefined tag and the .nav is a class name that i created*/
 }
 
 h1 {
-    font-size: 18px;
-    font-weight: 600;
-    color: #5DC3BB;
+    font-size: 16px;
+    font-weight: 400;
+    color: #F49A07;
     width: 1000px;
 }
 
 
 .tiletext {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     margin: 15px;
 }
 
@@ -177,13 +177,13 @@ h1 {
     margin: auto;
     text-align: center;
     padding-bottom: 15px;
-    border-bottom: 2px solid #5DC3BB;
+    border-bottom: 2px solid #F49A07;
 }
 
 .secondnav a {
     font-size: 16px;
     text-decoration: none;
-    color: #5DC3BB;
+    color: #F49A07;
 }
 
 .secondnav ul li:hover {
@@ -191,7 +191,7 @@ h1 {
 }
 
 .secondnav ul li .activeState {
-    color: #188FFF;
+    color: #E4650E;
 }
 
 .bg-recomm {
@@ -230,7 +230,7 @@ h1 {
 
 h2 {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 400;
     color: #000;
     text-decoration: none;
     margin-bottom: 10px;
@@ -256,12 +256,12 @@ h2 {
 
 button {
     margin-right: 20px;
-    background-color: #5DC3BB;
+    background-color: #F49A07;
     border-radius: 1px;
     border: none;
     padding: 10px 15px;
     width: 200px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
     float-right: 20px;
@@ -282,20 +282,20 @@ button:hover {
 
 h3 {
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 400;
     margin: 20px;
     text-decoration: none;
 }
 
 .job-title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 400;
     padding-top: 10px;
 }
 
 .jobs-info {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
     padding-top: 5px;
@@ -305,7 +305,7 @@ h3 {
 }
 
 .jobs-info2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
     padding-top: 5px;
@@ -327,15 +327,15 @@ h3 {
 
 /*ABOUT STYLING*/
 .about-title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 400;
     padding-top: 10px;
     margin-right: 20px;
 }
 
 .about-text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
     margin-right: 20px;
