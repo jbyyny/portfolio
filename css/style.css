@@ -139,6 +139,13 @@ h1 {
     margin: 15px;
 }
 
+.devicetext {
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 15px;
+}
+
 .project {
     padding-top: 40px;
     width: 1000px;
@@ -194,30 +201,107 @@ h1 {
     color: #E4650E;
 }
 
-.bg-recomm {
+.box .bg-election {
     background-size: cover;
-    background-image: url('../images/recomm-tile.png');
+    background-image: url('../images/news-election-tile.png');
     width: 300px;
     height: 300px;
 }
 
-.bg-jump {
+.box .bg-colors {
     background-size: cover;
-    background-image: url('../images/jumpbunch-tile.png');
+    background-image: url('../images/colors-tile.png');
     width: 300px;
     height: 300px;
 }
 
-.bg-voices {
+.box .bg-publishapp {
     background-size: cover;
-    background-image: url('../images/voices-tile.png');
+    background-image: url('../images/publishing-tile.png');
     width: 300px;
     height: 300px;
 }
 
-.bg-finance {
+.box .bg-patents {
     background-size: cover;
-/*    background-image: url('../images/jumpbunch-tile.png');*/
+    background-image: url('../images/patents-tile.png');
+    width: 300px;
+    height: 300px;
+}
+
+.box .bg-bizhealth {
+    background-size: cover;
+    background-image: url('../images/bizhealth-tile.png');
+    width: 300px;
+    height: 300px;
+}
+
+.box .bg-astro {
+    background-size: cover;
+    background-image: url('../images/astro-tile.png');
+    width: 300px;
+    height: 300px;
+}
+
+.box .bg-backyard {
+    background-size: cover;
+    background-image: url('../images/backyard-tile.png');
+    width: 300px;
+    height: 300px;
+}
+
+.box .bg-imow {
+    background-size: cover;
+    background-image: url('../images/imow-tile.png');
+    width: 300px;
+    height: 300px;
+}
+
+.box .bg-contentmktg {
+    background-size: cover;
+    background-image: url('../images/content-mktg-tile.png');
+    width: 300px;
+    height: 300px;
+}
+
+.box .bg-magazines {
+    background-size: cover;
+    background-image: url('../images/magazines-tile.png');
+    width: 300px;
+    height: 300px;
+}
+
+.box .bg-pyc {
+    background-size: cover;
+    background-image: url('../images/pyc-tile.png');
+    width: 300px;
+    height: 300px;
+}
+
+.box .bg-panorama {
+    background-size: cover;
+    background-image: url('../images/panorama-tile.png');
+    width: 300px;
+    height: 300px;
+}
+
+.box .bg-trackvia {
+    background-size: cover;
+    background-image: url('../images/trackvia-tile.png');
+    width: 300px;
+    height: 300px;
+}
+
+.box .bg-simple-energy {
+    background-size: cover;
+    background-image: url('../images/simple-energy-tile.png');
+    width: 300px;
+    height: 300px;
+}
+
+.box .bg-shine {
+    background-size: cover;
+    background-image: url('../images/shine-tile.png');
     width: 300px;
     height: 300px;
 }
