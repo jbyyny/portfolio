@@ -39,6 +39,11 @@ p {
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+    color: #f49a07;
+}
+
 .splash {
     margin: 20px auto;
     width: 1000px;
@@ -336,6 +341,16 @@ h2 {
 
 .stuff {
     font-size: 13px;
+    float: right;
+}
+
+.stuff a {
+    float: left;
+    display: inline;
+}
+
+.stuff img {
+    float: left;
 }
 
 button {
@@ -351,6 +366,8 @@ button {
     float-right: 20px;
     text-decoration: none;
     display: inline-block;
+    color: #f1f1f1;
+    cursor: pointer;
 }
 
 button a {
