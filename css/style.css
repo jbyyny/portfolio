@@ -34,6 +34,9 @@ body {
     line-height: 50px;
     color: #f1f1f1;
 }
+.name a {
+    color: #f1f1f1;
+}
 
 p {
     margin: auto;
@@ -73,12 +76,13 @@ a {
     line-height: 60px;
     color: #f1f1f1;
 }
+
 .nav {
     margin: 0 auto;
     line-height: 50px;
     position: absolute;
-    width: 1000px;
-    text-align: right;
+    width: 240px;
+    margin-left: 800px;
 }
 
 .nav ul li a {
