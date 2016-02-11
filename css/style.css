@@ -73,29 +73,28 @@ a {
     font-size: 13px;
     float: left;
     margin-left: 15px;
-    line-height: 60px;
+    line-height: 50px;
     color: #f1f1f1;
 }
 
-.nav {
+#nav {
     margin: 0 auto;
     line-height: 50px;
-    position: absolute;
-    width: 240px;
-    margin-left: 800px;
+    float: right;
+    text-align: right;
 }
 
-.nav ul li a {
+#nav ul li a {
     color: #F49A07;
     font-size: 13px;
     text-decoration: none;
 }
 
-.nav ul li a:hover {
+#nav ul li a:hover {
     opacity: 0.6;
 }
 
-.nav ul li .activeState {
+#nav ul li .activeState {
     color: #fff;
 }
 /*
@@ -111,7 +110,7 @@ img {
     margin-bottom: 15px;
 }
 
-.nav ul li {
+#nav ul li {
     display: inline;
     margin-right: 15px;
 }
@@ -119,7 +118,7 @@ img {
 /*i am styling the ul that is within the nav class, as you can see the ul is a different color than nav. 
 The ul is a predefined tag and the .nav is a class name that i created*/
 
-.nav ul {
+#nav ul {
     list-style: none;
     text-transform: capitalize;
 }
@@ -446,4 +445,115 @@ h3 {
     margin-right: 20px;
 }
 
+#hamburger {
+    display: none;
+}
 
+
+/*media queries DON'T TOUCH OR EDIT. LIKE EVER.*/
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+
+
+.uh .uhstuff {
+}
+
+.uhstuff {
+    width: 100%;
+}
+
+.secondnav {
+    width: 350px;
+}
+
+.project {
+    width: 350px;
+}
+
+.splash {
+    width: 350px;
+}
+
+.splash img {
+    width: 100%;
+}
+
+.name {
+    padding-left: 20px;
+}
+
+#hamburger {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 35px;
+    width: 35px;
+    padding-top: 18px;
+}
+
+#nav {
+    float: none;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    background-color: #ccc;
+    -webkit-transition: height 1s;
+    transition: height 1s;
+}
+
+#nav.open {
+    height: 185px;
+    -webkit-transition: height 1s;
+    transition: height 1s;
+}
+
+#nav li {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 1px 0;
+    line-height: 45px;
+    background-color: #3C504E;
+}
+
+#nav li a {
+    display: block;
+    background-color: #444;
+    border-bottom: 1px solid #666;
+}
+
+.content {
+    width: 350px;
+}
+
+.wrapper {
+    width: 340px;
+    float: none;
+    margin: auto;
+}
+
+.wrapper2 {
+    width: 350px;
+    padding: 10px 20px;
+    margin: auto;
+    float: none;
+}
+
+h1 {
+    width: 350px;
+}
+
+.profile img {
+    width: 260px;
+}
+
+.profile {
+    margin: auto;
+    width: 260px;
+}
+
+.box {
+    float: none;
+    margin: 0 auto 20px;
+}
