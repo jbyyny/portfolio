@@ -73,7 +73,7 @@ a {
     font-size: 13px;
     float: left;
     margin-left: 15px;
-    line-height: 50px;
+    margin-top: 21px;
     color: #f1f1f1;
 }
 
@@ -454,106 +454,199 @@ h3 {
 
 @media screen and (min-width: 320px) and (max-width: 500px) {
 
+    .uh .uhstuff {
+    }
 
-.uh .uhstuff {
+    .uhstuff {
+        width: 100%;
+    }
+
+    .secondnav {
+        width: 350px;
+    }
+
+    .project {
+        width: 350px;
+    }
+
+    .splash {
+        width: 350px;
+    }
+
+    .splash img {
+        width: 100%;
+    }
+
+    .name {
+        padding-left: 20px;
+    }
+
+    #hamburger {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 35px;
+        width: 35px;
+        padding-top: 18px;
+    }
+
+    #nav {
+        float: none;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        background-color: #ccc;
+        -webkit-transition: height 1s;
+        transition: height 1s;
+    }
+
+    #nav.open {
+        height: 185px;
+        -webkit-transition: height 1s;
+        transition: height 1s;
+    }
+
+    #nav li {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 1px 0;
+        line-height: 45px;
+        background-color: #3C504E;
+    }
+
+    #nav li a {
+        display: block;
+        background-color: #444;
+        border-bottom: 1px solid #666;
+    }
+
+    .content {
+        width: 350px;
+    }
+
+    .wrapper {
+        width: 340px;
+        float: none;
+        margin: auto;
+    }
+
+    .wrapper2 {
+        width: 350px;
+        padding: 10px 20px;
+        margin: auto;
+        float: none;
+    }
+
+    h1 {
+        width: 350px;
+    }
+
+    .profile img {
+        width: 260px;
+    }
+
+    .profile {
+        margin: auto;
+        width: 260px;
+    }
+
+    .box {
+        float: none;
+        margin: 0 auto 20px;
+    }
 }
 
-.uhstuff {
-    width: 100%;
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+
+    .wrapper2 {
+        width: 670px;
+    }
+
 }
 
-.secondnav {
-    width: 350px;
-}
+@media screen and (min-width: 500px) and (max-width: 999px) {
 
-.project {
-    width: 350px;
-}
+    .wrapper2 {
+        width: 500px;
+    }
 
-.splash {
-    width: 350px;
-}
+    .uhstuff {
+        width: 100%;
+    }
 
-.splash img {
-    width: 100%;
-}
+    .name {
+        margin-left: 20px;
+    }
 
-.name {
-    padding-left: 20px;
-}
+    .content {
+        width: 880px;
+    }
 
-#hamburger {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 35px;
-    width: 35px;
-    padding-top: 18px;
-}
+    h1 {
+        width: 875px;
+    }
 
-#nav {
-    float: none;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    background-color: #ccc;
-    -webkit-transition: height 1s;
-    transition: height 1s;
-}
+    .splash {
+        width: 100%;
+        padding: 40px 30px;
+        box-sizing: border-box;
+    }
 
-#nav.open {
-    height: 185px;
-    -webkit-transition: height 1s;
-    transition: height 1s;
-}
+    .splash img {
+        width: 100%;
+    }
 
-#nav li {
-    display: block;
-    text-align: center;
-    padding: 0;
-    margin: 1px 0;
-    line-height: 45px;
-    background-color: #3C504E;
-}
+    .project {
+        width: 100%;
+        padding: 40px 30px;
+        box-sizing: border-box;
+    }
 
-#nav li a {
-    display: block;
-    background-color: #444;
-    border-bottom: 1px solid #666;
-}
+    .secondnav {
+        width: 100%;
+    }
 
-.content {
-    width: 350px;
-}
+        #hamburger {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 35px;
+        width: 35px;
+        padding-top: 18px;
+    }
 
-.wrapper {
-    width: 340px;
-    float: none;
-    margin: auto;
-}
+    #nav {
+        float: none;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        background-color: #ccc;
+        -webkit-transition: height 1s;
+        transition: height 1s;
+    }
 
-.wrapper2 {
-    width: 350px;
-    padding: 10px 20px;
-    margin: auto;
-    float: none;
-}
+    #nav.open {
+        height: 185px;
+        -webkit-transition: height 1s;
+        transition: height 1s;
+    }
 
-h1 {
-    width: 350px;
-}
+    #nav li {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 1px 0;
+        line-height: 45px;
+        background-color: #3C504E;
+    }
 
-.profile img {
-    width: 260px;
-}
+    #nav li a {
+        display: block;
+        background-color: #444;
+        border-bottom: 1px solid #666;
+    }
 
-.profile {
-    margin: auto;
-    width: 260px;
-}
-
-.box {
-    float: none;
-    margin: 0 auto 20px;
 }
