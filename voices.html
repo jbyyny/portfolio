@@ -2,15 +2,23 @@
     <head><!-- this <head> is important; this is where we connect other docs such as css or javascript -->
         <title>Jen Byyny :: Portfolio</title>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel='shortcut icon' href='favicon.ico' type='image/favicon.ico'/ >
-        <link href='https://fonts.googleapis.com/css?family=Pontano+Sans': rel='stylesheet' type='text/css'><!---HOW TO ADD ICONS FOR SOCIAL AND MAIL WITH LINKS IN HEADER -->
+        <link rel="icon" type="img/png" href="images/favicon.ico" />
+        <link href='https://fonts.googleapis.com/css?family=Pontano+Sans': rel='stylesheet' type='text/css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!---HOW TO ADD ICONS FOR SOCIAL AND MAIL WITH LINKS IN HEADER -->
     </head>
     <body><!-- this is the main <body> where you will be buildling your website -->
         <div class="uh">
             <div class="uhstuff">
             <a href="index.html"><div class="name">Jen Byyny</div></a>
             <div class="role">Senior Principal UX Designer</div>
-            <div class="nav">
+
+            <div id="content">
+                <div id="hamburger">
+                    <img src="images/hamburger.png" width="20px" />
+                </div>
+
+            <div id="nav">
                 <ul> <!-- this is the ul that i referenced in the css -->
                     <li><a class="activeState" href="index.html">projects</a></li>
                     <li><a href="resume.html">resume</a></li>
@@ -20,7 +28,9 @@
             </div><!--end navstuff-->
           </div><!--nav end -->
         </div><!-- uh end -->
-        <div class="secondnav">
+    </div><!-- end content -->
+
+        <div class="secondnav body">
             <ul>
                 <li><a href="index.html">Yahoo Finance</a></li>
                 <li><a href="jumpbunch.html">JumpBunch</a></li>
@@ -29,7 +39,7 @@
                 <li><a href="picknroll.html">Yahoo Picknroll</a></li>
             </ul>
         </div>
-        <div class="project">
+        <div class="project body">
             <p>Yahoo Voices is a responsive site that was created for creators. Built for both internal global editors and consumer authors, Voices provided easy content creation with integrated Flickr search.</p>
             <div class="splash"><img src="images/voices-home.png" width="1000"/></div>
             <p>Site visitors can also create collections of content. Highly viewed and collected content is featured on the main page.</p>
@@ -43,5 +53,6 @@
             <p>Your profile with an activity feed</p>
             <div class="splash"><img src="images/voices-main-copy5.png" width="1000"/></div>
         </div><!--end content-->
+        <script src="main.js"></script>
     </body>
 </html>
