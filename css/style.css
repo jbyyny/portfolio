@@ -452,7 +452,7 @@ h3 {
 
 /*media queries DON'T TOUCH OR EDIT. LIKE EVER.*/
 
-@media screen and (min-width: 320px) and (max-width: 500px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
 
     .uh .uhstuff {
     }
@@ -527,7 +527,7 @@ h3 {
     }
 
     .wrapper {
-        width: 340px;
+        width: 100%;
         float: none;
         margin: auto;
     }
@@ -558,15 +558,7 @@ h3 {
     }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1400px) {
-
-    .wrapper2 {
-        width: 670px;
-    }
-
-}
-
-@media screen and (min-width: 500px) and (max-width: 999px) {
+@media screen and (min-width: 829px) and (max-width: 999px) {
 
     .wrapper2 {
         width: 500px;
@@ -581,11 +573,14 @@ h3 {
     }
 
     .content {
-        width: 880px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
     }
 
     h1 {
-        width: 875px;
+        width: 100%;
     }
 
     .splash {
@@ -609,6 +604,187 @@ h3 {
     }
 
         #hamburger {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 35px;
+        width: 35px;
+        padding-top: 18px;
+    }
+
+    #nav {
+        float: none;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        background-color: #ccc;
+        -webkit-transition: height 1s;
+        transition: height 1s;
+    }
+
+    #nav.open {
+        height: 185px;
+        -webkit-transition: height 1s;
+        transition: height 1s;
+    }
+
+    #nav li {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 1px 0;
+        line-height: 45px;
+        background-color: #3C504E;
+    }
+
+    #nav li a {
+        display: block;
+        background-color: #444;
+        border-bottom: 1px solid #666;
+    }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+
+    .wrapper2 {
+        width: 670px;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 998px) {
+
+    .wrapper2 {
+        width: 100%;
+        padding: 10px 80px;
+        box-sizing: border-box;
+    }
+
+    .uhstuff {
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .name {
+        margin-left: 20px;
+    }
+
+    .profile {
+        width: 300px;
+        margin: auto;
+    }
+
+    .content {
+        width: 100%;
+        padding: 90px 80px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .splash {
+        width: 100%;
+        padding: 40px 30px;
+        box-sizing: border-box;
+    }
+
+    .splash img {
+        width: 100%;
+    }
+
+    .project {
+        width: 100%;
+        padding: 40px 30px;
+        box-sizing: border-box;
+    }
+
+    .secondnav {
+        width: 100%;
+    }
+
+    #hamburger {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 35px;
+    width: 35px;
+    padding-top: 18px;
+    }
+
+    #nav {
+        float: none;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        background-color: #ccc;
+        -webkit-transition: height 1s;
+        transition: height 1s;
+    }
+
+    #nav.open {
+        height: 185px;
+        -webkit-transition: height 1s;
+        transition: height 1s;
+    }
+
+    #nav li {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 1px 0;
+        line-height: 45px;
+        background-color: #3C504E;
+    }
+
+    #nav li a {
+        display: block;
+        background-color: #444;
+        border-bottom: 1px solid #666;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 799) {
+    .content {
+        width: 750px;
+    }
+
+    .uhstuff {
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    h1 {
+        width: 750px;
+    }
+
+    .name {
+        padding-left: 20px;
+    }
+
+    .wrapper {
+        width: 750px;
+    }
+
+    .wrapper2 {
+        float: none;
+        width: 750px;
+        margin: auto;
+    }
+
+    #hamburger {
         display: block;
         position: absolute;
         top: 0;
