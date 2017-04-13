@@ -22,20 +22,20 @@ classes can be named anything you want and tags cannot.
 }
 
 body {
-    font-family: 'Pontano Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: 'Assistant', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
 }
 .name {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 25px;
     font-weight: 400;
     float: left;
     line-height: 50px;
-    color: #f1f1f1;
+    color: #000;
 }
 .name a {
-    color: #f1f1f1;
+    color: #000;
 }
 
 p {
@@ -54,12 +54,12 @@ a {
 .uh {
     position: fixed;
     width: 100%;
-    background-color: #333;
-    height: 50px;
+    background-color: #fff;
+    height: 60px;
 }
 
 .line {
-    border-bottom: 2px solid #F49A07;
+    border-bottom: 2px solid #ebebeb;
     padding-bottom: 20px;
     margin-bottom: 10px;
 }
@@ -74,7 +74,7 @@ a {
     float: left;
     margin-left: 15px;
     margin-top: 21px;
-    color: #f1f1f1;
+    color: #000;
 }
 
 #nav {
@@ -85,7 +85,7 @@ a {
 }
 
 #nav ul li a {
-    color: #F49A07;
+    color: #77797E;
     font-size: 13px;
     text-decoration: none;
 }
@@ -95,7 +95,8 @@ a {
 }
 
 #nav ul li .activeState {
-    color: #fff;
+    color: #000;
+    text-decoration: underline;
 }
 /*
 img {
@@ -104,7 +105,7 @@ img {
 }*/
 
 .profile img {
-    width: 300px;
+    width: 200px;
     border-radius: 6px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -135,20 +136,20 @@ The ul is a predefined tag and the .nav is a class name that i created*/
 h1 {
     font-size: 16px;
     font-weight: 400;
-    color: #F49A07;
+    color: #000;
     width: 1000px;
 }
 
 
 .tiletext {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin: 15px;
 }
 
 .devicetext {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 12px;
     font-weight: 400;
     margin: 15px;
@@ -168,12 +169,13 @@ h1 {
 
 .wrapper {
     width: 300px;
-    margin-right: 30px;
+    margin-right: 10px;
+    margin-left: 50px;
     float: left;
 }
 
 .wrapper2 {
-    width: 700px;
+    width: 800px;
     float: left;
 }
 
@@ -321,12 +323,12 @@ h1 {
 /*RESUME STYLING*/
 
 h2 {
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
     color: #000;
     text-decoration: none;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .resume-title {
@@ -363,7 +365,7 @@ button {
     border: none;
     padding: 10px 15px;
     width: 140px;
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 13px;
     font-weight: 400;
     float-right: 20px;
@@ -392,15 +394,15 @@ h3 {
 }
 
 .job-title {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
     padding-top: 10px;
 }
 
 .jobs-info {
-    font-family: 'Pontano Sans', sans-serif;
-    font-size: 13px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 14px;
     font-weight: 400;
     padding-top: 5px;
     padding-bottom: 10px;
@@ -409,7 +411,7 @@ h3 {
 }
 
 .jobs-info2 {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 13px;
     font-weight: 400;
     padding-top: 5px;
@@ -431,7 +433,7 @@ h3 {
 
 /*ABOUT STYLING*/
 .about-title {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 13px;
     font-weight: 400;
     padding-top: 10px;
@@ -439,7 +441,7 @@ h3 {
 }
 
 .about-text {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 13px;
     font-weight: 400;
     margin-right: 20px;
@@ -715,8 +717,8 @@ h3 {
     position: absolute;
     top: 0;
     right: 0;
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     padding-top: 18px;
     }
 
@@ -775,7 +777,7 @@ h3 {
     }
 
     .wrapper {
-        width: 750px;
+        width: 600px;
     }
 
     .wrapper2 {
