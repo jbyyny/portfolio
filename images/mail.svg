@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>mail</title>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 27 Copy 2</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="mail">
-            <g id="email" transform="translate(1.000000, 1.000000)">
-                <g id="Layer_1">
-                    <path d="M13.882,27.648 C21.2908999,27.648 27.297,21.6418999 27.297,14.233 C27.297,6.82410008 21.2908999,0.818 13.882,0.818 C6.47310008,0.818 0.467,6.82410008 0.467,14.233 C0.467,21.6418999 6.47310008,27.648 13.882,27.648 Z" id="Oval" fill="#000000"></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-27-Copy-2" sketch:type="MSArtboardGroup">
+            <g id="email" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)">
+                <g id="Layer_1" sketch:type="MSShapeGroup">
+                    <path d="M13.882,27.648 C21.2908999,27.648 27.297,21.6418999 27.297,14.233 C27.297,6.82410008 21.2908999,0.818 13.882,0.818 C6.47310008,0.818 0.467,6.82410008 0.467,14.233 C0.467,21.6418999 6.47310008,27.648 13.882,27.648 Z" id="Oval" fill="#F49A07"></path>
                     <path d="M20.729,12.726 L20.729,9.683 C20.729,9.347 20.458,9.075 20.124,9.075 L7.986,9.075 C7.651,9.075 7.379,9.347 7.379,9.683 L7.379,12.728 L7.379,12.729 L7.379,18.785 C7.379,19.12 7.651,19.391 7.986,19.391 L20.123,19.391 C20.457,19.391 20.728,19.12 20.728,18.785 L20.728,12.729 C20.729,12.729 20.729,12.729 20.729,12.726 L20.729,12.726 Z M19.516,10.29 L19.516,12.306 L14.055,14.491 L8.593,12.306 L8.593,10.29 L19.516,10.29 L19.516,10.29 Z M8.592,18.179 L8.592,13.614 L13.828,15.708 C13.9,15.737 13.976,15.752 14.054,15.752 C14.128,15.752 14.206,15.737 14.279,15.708 L19.515,13.614 L19.515,18.179 L8.592,18.179 L8.592,18.179 Z" id="Shape" fill="#FFFFFF"></path>
                 </g>
             </g>
