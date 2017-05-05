@@ -22,20 +22,20 @@ classes can be named anything you want and tags cannot.
 }
 
 body {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 .name {
-    font-family: 'Pontano Sans', sans-serif;
-    font-size: 25px;
-    font-weight: 400;
+    font-family: 'Assistant', sans-serif;
+    font-size: 23px;
+    font-weight: 800;
     float: left;
     line-height: 50px;
-    color: #f1f1f1;
+    color: #4A4A4A;
 }
 .name a {
-    color: #f1f1f1;
+    color: #4A4A4A;
 }
 
 p {
@@ -44,7 +44,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #f49a07;
+    color: #0F97A6;
 }
 
 .splash {
@@ -54,12 +54,13 @@ a {
 .uh {
     position: fixed;
     width: 100%;
-    background-color: #333;
-    height: 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #D8D8D8;
+    height: 70px;
 }
 
 .line {
-    border-bottom: 2px solid #F49A07;
+    border-bottom: 2px solid #0F97A6;
     padding-bottom: 20px;
     margin-bottom: 10px;
 }
@@ -72,21 +73,21 @@ a {
 .role {
     font-size: 13px;
     float: left;
-    margin-left: 15px;
-    margin-top: 21px;
-    color: #f1f1f1;
+    margin-left: -95px;
+    margin-top: 41px;
+    color: #4A4A4A;
 }
 
 #nav {
     margin: 0 auto;
-    line-height: 50px;
+    line-height: 70px;
     float: right;
     text-align: right;
 }
 
 #nav ul li a {
-    color: #F49A07;
-    font-size: 13px;
+    color: #4A4A4A;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -95,7 +96,8 @@ a {
 }
 
 #nav ul li .activeState {
-    color: #fff;
+    color: #0F97A6;
+    border-bottom: 1px solid #0F97A6;
 }
 /*
 img {
@@ -104,15 +106,25 @@ img {
 }*/
 
 .profile img {
-    width: 300px;
-    border-radius: 6px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    float: left;
 }
 
 #nav ul li {
     display: inline;
     margin-right: 15px;
+}
+
+.intro {
+    width: 1000px;
+    margin: 30px auto;
+    min-height: 210px;
+}
+
+.intro-p {
+    width: 720px;
+    float: right;
+    font-size: 20px;
+    line-height: 35px;
 }
 
 /*i am styling the ul that is within the nav class, as you can see the ul is a different color than nav. 
@@ -129,26 +141,26 @@ The ul is a predefined tag and the .nav is a class name that i created*/
 
 .secondnav ul li {
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 h1 {
     font-size: 16px;
     font-weight: 400;
-    color: #F49A07;
+    color: #4A4A4A;
     width: 1000px;
 }
 
 
 .tiletext {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin: 15px;
 }
 
 .devicetext {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 12px;
     font-weight: 400;
     margin: 15px;
@@ -192,13 +204,13 @@ h1 {
     margin: auto;
     text-align: center;
     padding-bottom: 15px;
-    border-bottom: 2px solid #F49A07;
+    border-bottom: 2px solid #0F97A6;
 }
 
 .secondnav a {
     font-size: 16px;
     text-decoration: none;
-    color: #F49A07;
+    color: #4A4A4A;
 }
 
 .secondnav ul li:hover {
@@ -206,7 +218,7 @@ h1 {
 }
 
 .secondnav ul li .activeState {
-    color: #E4650E;
+    color: #0F97A6;
 }
 
 .box .bg-election {
@@ -350,6 +362,7 @@ h2 {
 .stuff a {
     float: left;
     display: inline;
+    padding-right: 15px;
 }
 
 .stuff img {
@@ -358,12 +371,12 @@ h2 {
 
 button {
     margin-right: 20px;
-    background-color: #F49A07;
+    background-color: #0F97A6;
     border-radius: 1px;
     border: none;
     padding: 10px 15px;
     width: 140px;
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 13px;
     font-weight: 400;
     float-right: 20px;
@@ -392,14 +405,14 @@ h3 {
 }
 
 .job-title {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 15px;
     font-weight: 400;
     padding-top: 10px;
 }
 
 .jobs-info {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 13px;
     font-weight: 400;
     padding-top: 5px;
@@ -409,7 +422,7 @@ h3 {
 }
 
 .jobs-info2 {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 13px;
     font-weight: 400;
     padding-top: 5px;
@@ -431,7 +444,7 @@ h3 {
 
 /*ABOUT STYLING*/
 .about-title {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 13px;
     font-weight: 400;
     padding-top: 10px;
@@ -439,7 +452,7 @@ h3 {
 }
 
 .about-text {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 13px;
     font-weight: 400;
     margin-right: 20px;
@@ -488,7 +501,7 @@ h3 {
         right: 0;
         height: 35px;
         width: 35px;
-        padding-top: 18px;
+        padding-top: 30px;
     }
 
     #nav {
@@ -502,7 +515,7 @@ h3 {
     }
 
     #nav.open {
-        height: 185px;
+        height: 139px;
         -webkit-transition: height 1s;
         transition: height 1s;
     }
@@ -518,7 +531,7 @@ h3 {
 
     #nav li a {
         display: block;
-        background-color: #444;
+        background-color: #FFF;
         border-bottom: 1px solid #666;
     }
 
@@ -555,6 +568,25 @@ h3 {
     .box {
         float: none;
         margin: 0 auto 20px;
+    }
+
+    .intro {
+        width: 350px;
+        margin: 20px auto;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
+
+    .intro-p {
+        width: 100%;
+        float: none;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .profile img {
+        float: none;
+        margin: auto;
     }
 }
 
@@ -603,14 +635,14 @@ h3 {
         width: 100%;
     }
 
-        #hamburger {
+    #hamburger {
         display: block;
         position: absolute;
         top: 0;
         right: 0;
         height: 35px;
         width: 35px;
-        padding-top: 18px;
+        padding-top: 30px;
     }
 
     #nav {
@@ -624,7 +656,7 @@ h3 {
     }
 
     #nav.open {
-        height: 185px;
+        height: 139px;
         -webkit-transition: height 1s;
         transition: height 1s;
     }
@@ -640,8 +672,26 @@ h3 {
 
     #nav li a {
         display: block;
-        background-color: #444;
+        background-color: #FFF;
         border-bottom: 1px solid #666;
+    }
+
+    .intro {
+        width: 100%;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+
+    .intro-p {
+        width: 100%;
+        float: none;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .profile img {
+        float: none;
+        margin: auto;
     }
 
 }
@@ -717,7 +767,7 @@ h3 {
     right: 0;
     height: 35px;
     width: 35px;
-    padding-top: 18px;
+    padding-top: 30px;
     }
 
     #nav {
@@ -731,7 +781,7 @@ h3 {
     }
 
     #nav.open {
-        height: 185px;
+        height: 139px;
         -webkit-transition: height 1s;
         transition: height 1s;
     }
@@ -747,8 +797,29 @@ h3 {
 
     #nav li a {
         display: block;
-        background-color: #444;
+        background-color: #FFF;
         border-bottom: 1px solid #666;
+    }
+
+    .intro {
+        width: 100%;
+        padding: 40px 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
+
+    .intro-p {
+        float: none;
+        width: 100%;
+        font-size: 20px;
+        line-height: 35px;
+        float: none;
+    }
+
+    .profile img {
+        float: none;
+        margin: auto;
     }
 
 }
@@ -791,7 +862,7 @@ h3 {
         right: 0;
         height: 35px;
         width: 35px;
-        padding-top: 18px;
+        padding-top: 30px;
     }
 
     #nav {
@@ -805,7 +876,7 @@ h3 {
     }
 
     #nav.open {
-        height: 185px;
+        height: 139px;
         -webkit-transition: height 1s;
         transition: height 1s;
     }
@@ -821,8 +892,28 @@ h3 {
 
     #nav li a {
         display: block;
-        background-color: #444;
+        background-color: #FFF;
         border-bottom: 1px solid #666;
+    }
+
+    .intro {
+        width: 100%;
+        margin: 20px auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
+
+    .intro-p {
+        width: 100%;
+        float: none;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .profile img {
+        float: none;
+        margin: auto;
     }
 
 }
