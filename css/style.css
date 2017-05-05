@@ -59,7 +59,7 @@ a {
 }
 
 .line {
-    border-bottom: 2px solid #ebebeb;
+    border-bottom: 2px solid #d8d8d8;
     padding-bottom: 20px;
     margin-bottom: 10px;
 }
@@ -168,14 +168,14 @@ h1 {
 }
 
 .wrapper {
-    width: 300px;
+    width: 200px;
     margin-right: 10px;
     margin-left: 50px;
     float: left;
 }
 
 .wrapper2 {
-    width: 800px;
+    width: 600px;
     float: left;
 }
 
@@ -407,8 +407,17 @@ h3 {
     padding-top: 5px;
     padding-bottom: 10px;
     line-height: 20px;
-    padding-left: 18px;
 }
+
+.jobs-bullets {
+    font-family: 'Assistant', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    padding-left: 18px;
+]
 
 .jobs-info2 {
     font-family: 'Assistant', sans-serif;
