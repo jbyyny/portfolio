@@ -1,2 +1,0 @@
-# portfolio
-http://jenbyyny.com
