@@ -1,0 +1,977 @@
+/*
+
+This is a comment in CSS. I'll explain how to do CSS! YAY!
+
+.class {
+    property: value;
+}
+
+tag {
+    property: value;
+}
+
+classes always use . 
+tags are predefined names such as h1, h2, p, ul, li, label, strong and do not require a . 
+classes can be named anything you want and tags cannot.
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    float: left;
+    line-height: 50px;
+    color: #4A4A4A;
+}
+.name a {
+    color: #4A4A4A;
+}
+
+p {
+    margin: auto;
+    font-size: 15px;
+}
+
+.project-info {
+    margin: auto;
+    font-size: 16px;
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #2BA600;
+}
+
+.splash {
+    margin: 20px auto;
+    width: 1000px;
+}
+.uh {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #D8D8D8;
+    height: 80px;
+    top: 0;
+    padding-top: 10px;
+    box-shadow: 1px 1px 1px #f3f4f4;
+}
+
+.line {
+    border-bottom: 2px solid #2BA600;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.uhstuff {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.role {
+    font-size: 15px;
+    float: left;
+    margin-left: -120px;
+    margin-top: 40px;
+    color: #4A4A4A;
+}
+
+#nav {
+    margin: 0 auto;
+    line-height: 70px;
+    float: right;
+    text-align: right;
+}
+
+#nav ul li a {
+    color: #4A4A4A;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    opacity: 0.6;
+}
+
+#nav ul li .activeState {
+    color: #2BA600;
+    border-bottom: 1px solid #2BA600;
+}
+/*
+img {
+    width: 320px;
+    display: inline-block;
+}*/
+
+/*.profile img {
+    float: left;
+}*/
+
+#nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.intro {
+    width: 1000px;
+    margin: auto;
+    /*min-height: 210px;*/
+}
+
+.intro-p {
+    width: 1000px;
+    font-size: 18px;
+    line-height: 32px;
+    padding-top: 110px;
+}
+
+.splash-body {
+    width: 1000px;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 50px;
+}
+
+/*i am styling the ul that is within the nav class, as you can see the ul is a different color than nav. 
+The ul is a predefined tag and the .nav is a class name that i created*/
+
+#nav ul {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+/*.secondnav ul {
+    list-style: none;
+}
+
+.secondnav ul li {
+    display: inline-block;
+    padding-right: 20px;
+}*/
+
+h1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4A4A4A;
+    width: 1000px;
+}
+
+.box {
+    color: #000;
+    width: 300px;
+    margin: 15px;
+    float: left;
+}
+
+.tiletext {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    color: #2BA600;
+}
+
+.devicetext {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.project {
+    padding-top: 10px;
+    width: 1000px;
+    margin: auto;
+}
+
+.content {
+    padding-top: 90px;
+    width: 1000px;
+    margin: auto;
+}
+
+.wrapper {
+    width: 300px;
+/*    margin-right: 30px;*/
+    float: left;
+}
+
+.wrapper2 {
+    width: 700px;
+    float: left;
+}
+
+.box .bg-election {
+    background-size: cover;
+    background-image: url('../images/news-election-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box .bg-colors {
+    background-size: cover;
+    background-image: url('../images/colors-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box .bg-publishapp {
+    background-size: cover;
+    background-image: url('../images/publishing-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box .bg-patents {
+    background-size: cover;
+    background-image: url('../images/patents-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #e1e1e1;
+}
+
+.box .bg-bizhealth {
+    background-size: cover;
+    background-image: url('../images/bizhealth-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box .bg-astro {
+    background-size: cover;
+    background-image: url('../images/astro-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box .bg-backyard {
+    background-size: cover;
+    background-image: url('../images/backyard-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box .bg-imow {
+    background-size: cover;
+    background-image: url('../images/imow-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box .bg-contentmktg {
+    background-size: cover;
+    background-image: url('../images/content-mktg-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box .bg-magazines {
+    background-size: cover;
+    background-image: url('../images/magazines-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box .bg-pyc {
+    background-size: cover;
+    background-image: url('../images/pyc-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box .bg-panorama {
+    background-size: cover;
+    background-image: url('../images/panorama-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box .bg-trackvia {
+    background-size: cover;
+    background-image: url('../images/trackvia-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box .bg-simple-energy {
+    background-size: cover;
+    background-image: url('../images/simple-energy-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box .bg-shine {
+    background-size: cover;
+    background-image: url('../images/shine-tile.png');
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.box:hover {
+    opacity: 0.5;
+}
+
+/*RESUME STYLING*/
+
+h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.resume-title {
+    float: left;
+    width: 200px;
+}
+
+.inline {
+    display: inline;
+}
+
+.resume-box {
+    clear: both;
+}
+
+.stuff {
+    float: right;
+}
+
+.stuff a {
+    float: left;
+    display: inline;
+    height: 15px;
+    padding-right: 25px;
+    padding-top: 41px;
+}
+
+.stuff img {
+    float: left;
+}
+
+button {
+    margin-right: 20px;
+    background-color: #2BA600;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    width: 140px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    float-right: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+button a {
+    color: #f1f1f1;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.job-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.jobs-info {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    line-height: 24px;
+    padding-left: 18px;
+}
+
+.jobs-info2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+.jobs-info ol li {
+    font-size: 14px;
+}
+
+.avatar {
+    outline-color: #f1f1f1;
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    float: left;
+}
+
+.social-media-icons {
+    text-decoration: none;
+    display: inline;
+}
+.socia-media-icons ul {
+    list-style: none;
+}
+
+.copyright {
+    padding: 0;
+}
+
+/*ABOUT STYLING*/
+.about-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.about-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+#hamburger {
+    display: none;
+}
+
+.social {
+    margin-top: 10px;
+}
+
+.contact-me {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    display: inline;
+    color: #2BA600;
+    padding-top: 5px;
+}
+
+
+
+/*.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}*/
+
+
+/*media queries DON'T TOUCH OR EDIT. LIKE EVER.*/
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+
+    .uh .uhstuff {
+    }
+
+    .uhstuff {
+        width: 100%;
+    }
+
+    .secondnav {
+        width: 350px;
+    }
+
+    .project {
+        width: 350px;
+    }
+
+    .splash {
+        width: 350px;
+    }
+
+    .splash img {
+        width: 100%;
+    }
+
+    .name {
+        padding-left: 30px;
+    }
+
+    #hamburger {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 35px;
+        width: 35px;
+        padding-top: 30px;
+        padding-right: 12px;
+    }
+
+    #nav {
+        float: none;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        background-color: #9ED963;
+        -webkit-transition: height 1s;
+        transition: height 1s;
+    }
+
+    #nav.open {
+        height: 139px;
+        -webkit-transition: height 1s;
+        transition: height 1s;
+    }
+
+    #nav.open li {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 1px 0;
+        line-height: 45px;
+        background-color: #9ED963;
+    }
+
+    #nav li a {
+        display: block;
+        background-color: #FFF;
+        border-bottom: 1px solid #f1f1f1;
+    }
+
+    .content {
+        width: 350px;
+    }
+
+    .wrapper {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+
+    .wrapper2 {
+        width: 350px;
+        padding: 10px 20px;
+        margin: auto;
+        float: none;
+    }
+
+    h1 {
+        width: 350px;
+    }
+
+    .box {
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .intro {
+        width: 350px;
+        /*margin: 20px auto;*/
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
+
+    .intro-p {
+        width: 100%;
+        float: none;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .profile img {
+        float: none;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 829px) and (max-width: 999px) {
+
+    .wrapper2 {
+        width: 500px;
+    }
+
+    .uhstuff {
+        width: 100%;
+    }
+
+    .name {
+        margin-left: 20px;
+    }
+
+    .content {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    .splash {
+        width: 100%;
+        padding: 40px 30px;
+        box-sizing: border-box;
+    }
+
+    .splash img {
+        width: 100%;
+    }
+
+    .project {
+        width: 100%;
+        padding: 40px 30px;
+        box-sizing: border-box;
+    }
+
+    .secondnav {
+        width: 100%;
+    }
+
+    #hamburger {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 35px;
+        width: 35px;
+        padding-top: 30px;
+    }
+
+    #nav {
+        float: none;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        background-color: #9ED963;
+        -webkit-transition: height .5s;
+        transition: height .5s;
+    }
+
+    #nav.open {
+        height: 139px;
+        -webkit-transition: height .5s;
+        transition: height .5s;
+    }
+
+    #nav.open li {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 1px 0;
+        line-height: 45px;
+        background-color: #9ED963;
+    }
+
+    #nav li a {
+        display: block;
+        background-color: #FFF;
+        border-bottom: 1px solid #666;
+    }
+
+    .intro {
+        width: 100%;
+        margin: 15px auto;
+        box-sizing: border-box;
+    }
+
+    .intro-p {
+        width: 100%;
+        float: none;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .profile img {
+        float: none;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+
+    .wrapper2 {
+        width: 670px;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 998px) {
+
+    .wrapper2 {
+        width: 100%;
+        padding: 10px 80px;
+        box-sizing: border-box;
+    }
+
+    .uhstuff {
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .name {
+        margin-left: 20px;
+    }
+
+    .profile {
+        width: 300px;
+        margin: auto;
+    }
+
+    .content {
+        width: 100%;
+        padding: 90px 80px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .splash {
+        width: 100%;
+        padding: 30px 30px;
+        box-sizing: border-box;
+    }
+
+    .splash img {
+        width: 100%;
+    }
+
+    .project {
+        width: 100%;
+        padding: 40px 30px;
+        box-sizing: border-box;
+    }
+
+    #hamburger {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 35px;
+    width: 35px;
+    padding-top: 30px;
+    }
+    
+/*    #hamburger {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    padding-top: 32px;
+    padding-right: 20px;
+    }*/
+
+    #nav {
+        float: none;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        background-color: #9ED963;
+        -webkit-transition: height 1s;
+        transition: height 1s;
+    }
+
+    #nav.open {
+        height: 139px;
+        -webkit-transition: height 1s;
+        transition: height 1s;
+    }
+
+    #nav.open li {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 1px 0;
+        line-height: 45px;
+        background-color: #9ED963;
+    }
+
+    #nav li a {
+        display: block;
+        background-color: #FFF;
+        border-bottom: 1px solid #9ED963;
+    }
+
+    .intro {
+        width: 100%;
+        padding: 40px 30px;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    .intro-p {
+        float: none;
+        width: 100%;
+        font-size: 18px;
+        line-height: 30px;
+        padding-top: 7%;
+    }
+
+    .profile img {
+        float: none;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 799) {
+    .content {
+        width: 750px;
+    }
+
+    .uhstuff {
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    h1 {
+        width: 750px;
+    }
+
+    .name {
+        padding-left: 20px;
+    }
+
+    .wrapper {
+        width: 750px;
+    }
+
+    .wrapper2 {
+        float: none;
+        width: 750px;
+        margin: auto;
+    }
+
+    #hamburger {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 35px;
+        width: 35px;
+        padding-top: 30px;
+    }
+
+    #nav {
+        float: none;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        background-color: #ccc;
+        -webkit-transition: height .5s;
+        transition: height .5s;
+    }
+
+    #nav.open {
+        height: 139px;
+        -webkit-transition: height .5s;
+        transition: height .5s;
+    }
+
+    #nav li {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 1px 0;
+        line-height: 45px;
+        background-color: #3C504E;
+    }
+
+    #nav li a {
+        display: block;
+        background-color: #FFF;
+        border-bottom: 1px solid #666;
+    }
+
+    .intro {
+        width: 100%;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
+
+    .intro-p {
+        width: 100%;
+        float: none;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
