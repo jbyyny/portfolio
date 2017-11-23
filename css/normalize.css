@@ -123,12 +123,12 @@ a:hover {
  */
 
 h1 {
-    font-size: 22px;
+    font-size: 24px;
     margin: 10px 0 3px 0;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 1.5em;
     margin: 0.83em 0;
 }
 
@@ -196,7 +196,7 @@ mark {
 
 p,
 pre {
-    margin: 5px 0 15px 0;
+    margin: 8px 0 15px 0;
 }
 
 /*
