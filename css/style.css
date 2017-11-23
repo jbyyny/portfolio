@@ -41,7 +41,7 @@ body {
 
 p {
     margin: auto;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .project-info {
@@ -82,7 +82,7 @@ a {
 }
 
 .role {
-    font-size: 14px;
+    font-size: 15px;
     float: left;
     margin-left: -120px;
     margin-top: 40px;
@@ -110,19 +110,14 @@ a {
     color: #2BA600;
     border-bottom: 1px solid #2BA600;
 }
-/*
-img {
-    width: 320px;
-    display: inline-block;
-}*/
-
-/*.profile img {
-    float: left;
-}*/
 
 #nav ul li {
     display: inline;
     margin-right: 15px;
+}
+
+.carat {
+    margin-bottom: -5px;
 }
 
 .intro {
@@ -134,8 +129,15 @@ img {
 .intro-p {
     width: 1000px;
     font-size: 18px;
+    line-height: 32px;
+    padding-top: 110px;
+}
+
+.splash-body {
+    width: 1000px;
+    font-size: 18px;
     line-height: 30px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 /*i am styling the ul that is within the nav class, as you can see the ul is a different color than nav. 
@@ -146,20 +148,17 @@ The ul is a predefined tag and the .nav is a class name that i created*/
     text-transform: capitalize;
 }
 
-/*.secondnav ul {
-    list-style: none;
-}
-
-.secondnav ul li {
-    display: inline-block;
-    padding-right: 20px;
-}*/
 
 h1 {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     color: #4A4A4A;
     width: 1000px;
+}
+
+video {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .box {
@@ -173,15 +172,14 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 3px;
     margin-top: 25px;
     color: #2BA600;
 }
 
 .devicetext {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 300;
     margin-bottom: 10px;
 }
 
@@ -199,7 +197,7 @@ h1 {
 
 .wrapper {
     width: 300px;
-    margin-right: 30px;
+/*    margin-right: 30px;*/
     float: left;
 }
 
@@ -207,29 +205,6 @@ h1 {
     width: 700px;
     float: left;
 }
-
-/*.secondnav {
-    width: 1000px;
-    padding-top: 90px;
-    margin: auto;
-    text-align: center;
-    padding-bottom: 15px;
-    border-bottom: 2px solid #2BA600;
-}
-
-.secondnav a {
-    font-size: 16px;
-    text-decoration: none;
-    color: #4A4A4A;
-}
-
-.secondnav ul li:hover {
-    opacity: 0.6;
-}
-
-.secondnav ul li .activeState {
-    color: #2BA600;
-}*/
 
 .box .bg-election {
     background-size: cover;
@@ -380,14 +355,15 @@ h2 {
 }
 
 .stuff {
-    font-size: 13px;
     float: right;
 }
 
 .stuff a {
     float: left;
     display: inline;
-    padding-right: 15px;
+    height: 15px;
+    padding-right: 25px;
+    padding-top: 41px;
 }
 
 .stuff img {
@@ -399,11 +375,11 @@ button {
     background-color: #2BA600;
     border-radius: 5px;
     border: none;
-    padding: 10px 15px;
+    padding: 10px 12px;
     width: 140px;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 300;
     float-right: 20px;
     text-decoration: none;
     display: inline-block;
@@ -467,6 +443,18 @@ h3 {
     float: left;
 }
 
+.social-media-icons {
+    text-decoration: none;
+    display: inline;
+}
+.socia-media-icons ul {
+    list-style: none;
+}
+
+.copyright {
+    padding: 0;
+}
+
 /*ABOUT STYLING*/
 .about-title {
     font-family: 'Open Sans', sans-serif;
@@ -487,10 +475,60 @@ h3 {
     display: none;
 }
 
+.social {
+    margin-top: 10px;
+}
 
-/*media queries DON'T TOUCH OR EDIT. LIKE EVER.*/
+.contact-me {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    display: inline;
+    color: #2BA600;
+    padding-top: 5px;
+}
+
+
+
+/*.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}*/
+
+
+/*MEDIA QUERIES 320 / 500 / 600 / 829 / 1000*/
 
 @media screen and (min-width: 320px) and (max-width: 600px) {
+    .stuff{
+        float: none;
+        margin-bottom: 50px;
+        margin-top: -25px;
+    }
 
     .uh .uhstuff {
     }
@@ -535,7 +573,7 @@ h3 {
         overflow: hidden;
         width: 100%;
         height: 0;
-        background-color: #ccc;
+        background-color: #9ED963;
         -webkit-transition: height 1s;
         transition: height 1s;
     }
@@ -546,19 +584,19 @@ h3 {
         transition: height 1s;
     }
 
-    #nav li {
+    #nav.open li {
         display: block;
         text-align: center;
         padding: 0;
         margin: 1px 0;
         line-height: 45px;
-        background-color: #3C504E;
+        background-color: #9ED963;
     }
 
     #nav li a {
         display: block;
         background-color: #FFF;
-        border-bottom: 1px solid #666;
+        border-bottom: 1px solid #f1f1f1;
     }
 
     .content {
@@ -582,13 +620,10 @@ h3 {
         width: 350px;
     }
 
-    .profile img {
-        width: 260px;
-    }
-
-    .profile {
-        margin: auto;
-        width: 260px;
+    video {
+        width:350px;
+        padding-top: 2px;
+        padding-bottom: 45px;
     }
 
     .box {
@@ -598,7 +633,6 @@ h3 {
 
     .intro {
         width: 350px;
-        margin: 20px auto;
         margin-bottom: 0px;
         box-sizing: border-box;
     }
@@ -615,6 +649,7 @@ h3 {
         margin: auto;
     }
 }
+
 
 @media screen and (min-width: 829px) and (max-width: 999px) {
 
@@ -639,6 +674,12 @@ h3 {
 
     h1 {
         width: 100%;
+    }
+
+    video {
+        width: 100%;
+        padding-top: 2px;
+        padding-bottom: 45px;
     }
 
     .splash {
@@ -676,24 +717,24 @@ h3 {
         overflow: hidden;
         width: 100%;
         height: 0;
-        background-color: #ccc;
-        -webkit-transition: height 1s;
-        transition: height 1s;
+        background-color: #9ED963;
+        -webkit-transition: height .5s;
+        transition: height .5s;
     }
 
     #nav.open {
         height: 139px;
-        -webkit-transition: height 1s;
-        transition: height 1s;
+        -webkit-transition: height .5s;
+        transition: height .5s;
     }
 
-    #nav li {
+    #nav.open li {
         display: block;
         text-align: center;
         padding: 0;
         margin: 1px 0;
         line-height: 45px;
-        background-color: #3C504E;
+        background-color: #9ED963;
     }
 
     #nav li a {
@@ -766,6 +807,12 @@ h3 {
         box-sizing: border-box;
     }
 
+    video {
+        width: 100%;
+        padding-top: 2px;
+        padding-bottom: 45px;
+    }
+
     .splash {
         width: 100%;
         padding: 30px 30px;
@@ -782,37 +829,23 @@ h3 {
         box-sizing: border-box;
     }
 
-    .secondnav {
-        width: 100%;
-    }
-
-/*    #hamburger {
+    #hamburger {
     display: block;
     position: absolute;
     top: 0;
     right: 0;
     height: 35px;
     width: 35px;
-    pad
-    }*/
-    
-    #hamburger {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 40px;
-    width: 40px;
-    padding-top: 32px;
-    padding-right: 20px;
+    padding-top: 30px;
     }
+    
 
     #nav {
         float: none;
         overflow: hidden;
         width: 100%;
         height: 0;
-        background-color: #ccc;
+        background-color: #9ED963;
         -webkit-transition: height 1s;
         transition: height 1s;
     }
@@ -823,19 +856,19 @@ h3 {
         transition: height 1s;
     }
 
-    #nav li {
+    #nav.open li {
         display: block;
         text-align: center;
         padding: 0;
         margin: 1px 0;
         line-height: 45px;
-        background-color: #3C504E;
+        background-color: #9ED963;
     }
 
     #nav li a {
         display: block;
         background-color: #FFF;
-        border-bottom: 1px solid #666;
+        border-bottom: 1px solid #9ED963;
     }
 
     .intro {
@@ -877,6 +910,12 @@ h3 {
         width: 750px;
     }
 
+    video {
+        width: 750px;
+        padding-top: 2px;
+        padding-bottom: 45px;
+    }
+
     .name {
         padding-left: 20px;
     }
@@ -907,14 +946,14 @@ h3 {
         width: 100%;
         height: 0;
         background-color: #ccc;
-        -webkit-transition: height 1s;
-        transition: height 1s;
+        -webkit-transition: height .5s;
+        transition: height .5s;
     }
 
     #nav.open {
         height: 139px;
-        -webkit-transition: height 1s;
-        transition: height 1s;
+        -webkit-transition: height .5s;
+        transition: height .5s;
     }
 
     #nav li {
@@ -947,9 +986,7 @@ h3 {
         line-height: 25px;
     }
 
-    .profile img {
-        float: none;
-        margin: auto;
-    }
-
+    .stuff {
+    float: none;
 }
+
