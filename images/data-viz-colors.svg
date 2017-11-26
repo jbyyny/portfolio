@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="625px" height="620px" viewBox="0 0 625 620" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>data-viz-colors</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="data-viz-colors">
+            <text id="#57BEBE,-#A5D8D8,-#2" font-family="OpenSans-Light, Open Sans" font-size="10" font-weight="300" fill="#696969">
+                <tspan x="35" y="96">#57BEBE, #A5D8D8, #20A5DE, #8ACCE9, #64518A, #8D7FB9, #7F7977, #B2A898, #EA8A2F, #F2B431, #494C52, #9EA0A3</tspan>
+            </text>
+            <rect id="Rectangle-2236" fill="#FFFFFF" x="31" y="28" width="344" height="57"></rect>
+            <rect id="Rectangle-5" fill="#57BEBE" x="36" y="54" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#A5D8D8" x="83" y="54" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#20A5DE" x="130" y="54" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#8ACCE9" x="177" y="54" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#64518A" x="224" y="54" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#8D7FB9" x="271" y="54" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#7F7977" x="318" y="54" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#B2A898" x="365" y="54" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#EA8A2F" x="412" y="54" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#F2B431" x="459" y="54" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#494C52" x="506" y="54" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#9EA0A3" x="553" y="54" width="26" height="26"></rect>
+            <text id="Looker-new-default" font-family="OpenSans, Open Sans" font-size="11" font-weight="normal" fill="#4A4A4A">
+                <tspan x="36" y="42">Looker new default</tspan>
+            </text>
+            <text id="#0C9ADC,-#8C80BA,-#4" font-family="OpenSans-Light, Open Sans" font-size="10" font-weight="300" fill="#696969">
+                <tspan x="35" y="206">#0C9ADC, #8C80BA, #43A543, #C2E6F6, #3B445E, #7384A7, #68568F, #85CCED, #F0B884, #E17209, #9B9B9B, #C6C5C5</tspan>
+            </text>
+            <rect id="Rectangle-2236" fill="#FFFFFF" x="31" y="138" width="344" height="57"></rect>
+            <rect id="Rectangle-5" fill="#0C9ADC" x="36" y="164" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#8C80BA" x="83" y="164" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#43A543" x="130" y="164" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#C2E6F6" x="177" y="164" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#3B445E" x="224" y="164" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#7384A7" x="271" y="164" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#68568F" x="318" y="164" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#85CCED" x="365" y="164" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#F0B884" x="412" y="164" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#E17209" x="459" y="164" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#9B9B9B" x="506" y="164" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#C6C5C5" x="553" y="164" width="26" height="26"></rect>
+            <text id="Looker-legacy" font-family="OpenSans, Open Sans" font-size="11" font-weight="normal" fill="#4A4A4A">
+                <tspan x="36" y="152">Looker legacy</tspan>
+            </text>
+            <text id="#DCEDC8,-#B2DDCC,-#8" font-family="OpenSans-Light, Open Sans" font-size="10" font-weight="300" fill="#696969">
+                <tspan x="35" y="321">#DCEDC8, #B2DDCC, #88CDCF, #5EBED3, #40AAD0, #3890C0, #3176B0, #2A5CA0, #224290, #1B2781, #151D67, #10154C</tspan>
+            </text>
+            <rect id="Rectangle-2236" fill="#FFFFFF" x="31" y="253" width="344" height="57"></rect>
+            <rect id="Rectangle-5" fill="#DCEDC8" x="36" y="279" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#B2DDCC" x="83" y="279" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#88CDCF" x="130" y="279" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#5EBED3" x="177" y="279" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#40AAD0" x="224" y="279" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#3890C0" x="271" y="279" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#3176B0" x="318" y="279" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#2A5CA0" x="365" y="279" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#224290" x="412" y="279" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#1B2781" x="459" y="279" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#151D67" x="506" y="279" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#10154C" x="553" y="279" width="26" height="26"></rect>
+            <text id="Cool" font-family="OpenSans, Open Sans" font-size="11" font-weight="normal" fill="#4A4A4A">
+                <tspan x="36" y="267">Cool</tspan>
+            </text>
+            <text id="#FEEE7F,-#FEE964,-#F" font-family="OpenSans-Light, Open Sans" font-size="10" font-weight="300" fill="#696969">
+                <tspan x="35" y="441">#FEEE7F, #FEE964, #FAD159, #F6B94D, #F2A141, #ED8A35, #E9722A, #E55B20, #C94E20, #9F4424, #763C2A, #4D342F</tspan>
+            </text>
+            <rect id="Rectangle-2236" fill="#FFFFFF" x="31" y="373" width="344" height="57"></rect>
+            <rect id="Rectangle-5" fill="#FEEE7F" x="36" y="399" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#FEE964" x="83" y="399" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#FAD159" x="130" y="399" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#F6B94D" x="177" y="399" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#F2A141" x="224" y="399" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#ED8A35" x="271" y="399" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#E9722A" x="318" y="399" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#E55B20" x="365" y="399" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#C94E20" x="412" y="399" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#9F4424" x="459" y="399" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#763C2A" x="506" y="399" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#4D342F" x="553" y="399" width="26" height="26"></rect>
+            <text id="Warm" font-family="OpenSans, Open Sans" font-size="11" font-weight="normal" fill="#4A4A4A">
+                <tspan x="36" y="387">Warm</tspan>
+            </text>
+            <text id="#FACDAA,-#F4ACA0,-#F" font-family="OpenSans-Light, Open Sans" font-size="10" font-weight="300" fill="#696969">
+                <tspan x="35" y="567">#FACDAA, #F4ACA0, #F08A96, #EB688C, #DD4D87, #BA3E8D, #982F92, #752098, #5F188A, #4E1472, #3D105A, #2D0D42</tspan>
+            </text>
+            <rect id="Rectangle-2236" fill="#FFFFFF" x="31" y="499" width="344" height="57"></rect>
+            <rect id="Rectangle-5" fill="#FACDAA" x="36" y="525" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#F4ACA0" x="83" y="525" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#F08A96" x="130" y="525" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#EB688C" x="177" y="525" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#DD4D87" x="224" y="525" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#BA3E8D" x="271" y="525" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#982F92" x="318" y="525" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#752098" x="365" y="525" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#5F188A" x="412" y="525" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#4E1472" x="459" y="525" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#3D105A" x="506" y="525" width="26" height="26"></rect>
+            <rect id="Rectangle-5" fill="#2D0D42" x="553" y="525" width="26" height="26"></rect>
+            <text id="Neon" font-family="OpenSans, Open Sans" font-size="11" font-weight="normal" fill="#4A4A4A">
+                <tspan x="36" y="513">Neon</tspan>
+            </text>
+            <text id="(added-this-just-in" font-family="OpenSans, Open Sans" font-size="11" font-weight="normal" fill="#4A4A4A">
+                <tspan x="75" y="513">(added this just in case it works better than one of the others)</tspan>
+            </text>
+            <path d="M34.5,119.5 L590.629456,119.5" id="Line" stroke="#D8D8D8" stroke-linecap="square"></path>
+            <path d="M34.5,233.5 L590.629456,233.5" id="Line" stroke="#D8D8D8" stroke-linecap="square"></path>
+            <path d="M34.5,353.5 L590.629456,353.5" id="Line" stroke="#D8D8D8" stroke-linecap="square"></path>
+            <path d="M34.5,468.5 L590.629456,468.5" id="Line" stroke="#D8D8D8" stroke-linecap="square"></path>
+            <rect id="Rectangle-7" stroke="#F3F3F3" x="0.5" y="0.5" width="624" height="619"></rect>
+        </g>
+    </g>
+</svg>
