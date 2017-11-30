@@ -92,7 +92,7 @@ a {
 
 #nav ul li .activeState {
     color: #2BA600;
-    border-bottom: 1px solid #2BA600;
+/*    border-bottom: 1px solid #2BA600;*/
 }
 
 #nav ul li {
@@ -528,14 +528,16 @@ ABOUT STYLING
         width: 100%;
         height: 0;
         background-color: #9ED963;
-        -webkit-transition: height 1s;
-        transition: height 1s;
+        -webkit-transition: height .75s;
+        transition: height .75s;
     }
 
     #nav.open {
-        height: 139px;
-        -webkit-transition: height 1s;
-        transition: height 1s;
+        height: 146px;
+        -webkit-transition: height .75s;
+        transition: height .75s;
+        box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+        z-index: 1;
     }
 
     #nav.open li {
@@ -543,7 +545,7 @@ ABOUT STYLING
         text-align: center;
         padding: 0;
         margin: 1px 0;
-        line-height: 45px;
+        line-height: 46px;
         background-color: #9ED963;
     }
 
