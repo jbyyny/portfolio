@@ -1,4 +1,4 @@
-    
+
 * {
     margin: 0;
     padding: 0;
@@ -27,10 +27,21 @@ p {
     font-size: 15px;
 }
 
+.list-header {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ul li {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
 .project-info {
     margin: auto;
     font-size: 16px;
     padding-top: 100px;
+    line-height: 25px;
 }
 
 a {
@@ -39,10 +50,9 @@ a {
 }
 
 .splash {
-    margin: 20px auto;
+/*    margin: 20px auto;*/
     width: 1000px;
 }
-
 .uh {
     position: fixed;
     width: 100%;
@@ -73,6 +83,10 @@ a {
     color: #4A4A4A;
 }
 
+#nav-mobile{
+    display: none;
+}
+
 #nav {
     margin: 0 auto;
     line-height: 70px;
@@ -84,6 +98,7 @@ a {
     color: #4A4A4A;
     font-size: 15px;
     text-decoration: none;
+    padding-right: 10px;
 }
 
 #nav ul li a:hover {
@@ -92,6 +107,7 @@ a {
 
 #nav ul li .activeState {
     color: #2BA600;
+/*    padding: 4px 16px 4px 16px;*/
 /*    border-bottom: 1px solid #2BA600;*/
 }
 
@@ -100,8 +116,69 @@ a {
     margin-right: 15px;
 }
 
-.carat {
-    margin-bottom: -5px;
+
+/*NAV DROPDOWN*/
+
+.dropbtn {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    text-align: left;
+    line-height: 20px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #fff;
+}
+
+.projects {
+    position: relative;
+    display: inline-block;
+}
+
+.projects-content {
+    position: absolute;
+    background-color: #fff;
+    min-width: 185px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.projects-content a {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.projects a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+#myDropdown {
+    position: absolute;
+    border-radius: 6px;
+    margin-top: -12px;
+    display: none;
+    text-align: left;
+}
+
+#nav ul li.dropbtn:hover ~ #nav ul span#myDropdown{
+    background-color: blue;
+    display: block;
+}
+
+#myDropdown a:hover {
+    color: #2BA600;
 }
 
 .intro {
@@ -127,6 +204,53 @@ a {
     list-style: none;
     text-transform: capitalize;
 }
+
+.dropbtn {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 4px 16px 4px 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    color: #000;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #fff;
+}
+
+.projects {
+    position: relative;
+    display: inline-block;
+}
+
+.projects-content {
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    line-height: 23px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.projects-content a {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+/*    padding: 14px 18px;*/
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 3px;
+}
+
+.projects a:hover {background-color: #aa0000}
+
+.show {display:block;}
+
 
 h1 {
     font-size: 14px;
@@ -383,23 +507,6 @@ h3 {
     text-decoration: none;
 }
 
-h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 50px;
-}
-
-.specialties {
-    opacity: .4;
-    font-size: 15px;
-    margin-bottom: -40px;
-}
-
-.blank {
-
-}
-
 .job-title {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -430,13 +537,13 @@ h4 {
     font-size: 14px;
 }
 
-.avatar {
+/*.avatar {
     outline-color: #f1f1f1;
     width: 30px;
     height: 30px;
     margin: 15px;
     float: left;
-}
+}*/
 
 .social-media-icons {
     text-decoration: none;
@@ -446,11 +553,11 @@ h4 {
     list-style: none;
 }
 
-.copyright {
+/*.copyright {
     padding: 0;
-}
+}*/
 
-ABOUT STYLING
+/*ABOUT STYLING*/
 .about-title {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
@@ -475,7 +582,7 @@ ABOUT STYLING
 }
 
 
-/*MEDIA QUERIES 320 / 500 / 600 / 829 / 1000*/
+/*MEDIA QUERIES 320 / 600 / 829 / 1000*/
 
 @media screen and (min-width: 320px) and (max-width: 600px) {
     .stuff{
@@ -489,10 +596,6 @@ ABOUT STYLING
 
     .uhstuff {
         width: 100%;
-    }
-
-    .secondnav {
-        width: 350px;
     }
 
     .project {
@@ -522,34 +625,39 @@ ABOUT STYLING
         padding-right: 12px;
     }
 
-    #nav {
+    #nav{
+        display: none;
+    }
+
+    #nav-mobile {
+        display: block;
         float: none;
         overflow: hidden;
         width: 100%;
         height: 0;
         background-color: #9ED963;
-        -webkit-transition: height .75s;
-        transition: height .75s;
+        -webkit-transition: height 0.25s;
+        transition: height 0.25s;
     }
 
-    #nav.open {
-        height: 146px;
+    #nav-mobile.open {
+        height: 100%;
         -webkit-transition: height .75s;
         transition: height .75s;
         box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
 
-    #nav.open li {
+    #nav-mobile.open li {
         display: block;
         text-align: center;
         padding: 0;
         margin: 1px 0;
-        line-height: 46px;
+        line-height: 45px;
         background-color: #9ED963;
     }
 
-    #nav li a {
+    #nav-mobile li a {
         display: block;
         background-color: #FFF;
         border-bottom: 1px solid #f1f1f1;
@@ -557,6 +665,7 @@ ABOUT STYLING
 
     .content {
         width: 350px;
+/*        height: 400px;*/
     }
 
     .wrapper {
@@ -600,11 +709,21 @@ ABOUT STYLING
         line-height: 30px;
     }
 
-    .profile img {
-        float: none;
-        margin: auto;
+    #myDropdown {
+        display: none;
+    }
+
+    #nav-mobile ul li .activeState {
+/*        color: #2BA600;*/
+/*        border-bottom: 1px solid #2BA600;*/
+        text-align: center;
+        height: 30px;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: -15px;
     }
 }
+
 
 
 @media screen and (min-width: 829px) and (max-width: 999px) {
@@ -654,10 +773,6 @@ ABOUT STYLING
         box-sizing: border-box;
     }
 
-    .secondnav {
-        width: 100%;
-    }
-
     #hamburger {
         display: block;
         position: absolute;
@@ -667,8 +782,12 @@ ABOUT STYLING
         width: 35px;
         padding-top: 30px;
     }
+    #nav{
+        display:none;
+    }
 
-    #nav {
+    #nav-mobile {
+        display: block;
         float: none;
         overflow: hidden;
         width: 100%;
@@ -678,15 +797,15 @@ ABOUT STYLING
         transition: height .75s;
     }
 
-    #nav.open {
-        height: 139px;
+    #nav-mobile.open {
+        height: 100%;
         -webkit-transition: height .75s;
         transition: height .75s;
         box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
 
-    #nav.open li {
+    #nav-mobile.open li {
         display: block;
         text-align: center;
         padding: 0;
@@ -695,10 +814,9 @@ ABOUT STYLING
         background-color: #9ED963;
     }
 
-    #nav li a {
+    #nav-mobile li a {
         display: block;
         background-color: #FFF;
-        border-bottom: 1px solid #666;
     }
 
     .intro {
@@ -707,16 +825,32 @@ ABOUT STYLING
         box-sizing: border-box;
     }
 
-    .intro-p {
+/*    .intro-p {
         width: 100%;
         float: none;
         font-size: 15px;
         line-height: 25px;
+    }*/
+
+.intro-p {
+        width: 90%;
+        float: none;
+        font-size: 18px;
+        line-height: 30px;
+        margin-left: 20px;
+        margin-right: 60px;
     }
 
-    .profile img {
-        float: none;
-        margin: auto;
+    #myDropdown {
+        display: none;
+    }
+
+    #nav-mobile ul li .activeState {
+        text-align: center;
+        height: 30px;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: -15px;
     }
 
 }
@@ -726,10 +860,9 @@ ABOUT STYLING
     .wrapper2 {
         width: 670px;
     }
-
 }
 
-@media screen and (min-width: 600px) and (max-width: 998px) {
+@media screen and (min-width: 600px) and (max-width: 829px) {
 
     .wrapper2 {
         width: 100%;
@@ -747,11 +880,6 @@ ABOUT STYLING
 
     .name {
         margin-left: 20px;
-    }
-
-    .profile {
-        width: 300px;
-        margin: auto;
     }
 
     .content {
@@ -783,22 +911,26 @@ ABOUT STYLING
 
     .project {
         width: 100%;
-        padding: 2px 30px;
+        padding: 40px 30px;
         box-sizing: border-box;
     }
 
     #hamburger {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 35px;
-    width: 35px;
-    padding-top: 30px;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 35px;
+        width: 35px;
+        padding-top: 30px;
     }
     
+    #nav{
+        display: none;
+    }
 
-    #nav {
+        #nav-mobile {
+        display: block;
         float: none;
         overflow: hidden;
         width: 100%;
@@ -808,15 +940,15 @@ ABOUT STYLING
         transition: height .75s;
     }
 
-    #nav.open {
-        height: 139px;
+    #nav-mobile.open {
+        height: 100%;
         -webkit-transition: height .75s;
         transition: height .75s;
         box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
 
-    #nav.open li {
+    #nav-mobile.open li {
         display: block;
         text-align: center;
         padding: 0;
@@ -825,10 +957,9 @@ ABOUT STYLING
         background-color: #9ED963;
     }
 
-    #nav li a {
+    #nav-mobile li a {
         display: block;
         background-color: #FFF;
-        border-bottom: 1px solid #9ED963;
     }
 
     .intro {
@@ -846,107 +977,17 @@ ABOUT STYLING
         padding-top: 10%;
     }
 
-    .profile img {
-        float: none;
-        margin: auto;
+    #myDropdown {
+        display: none;
     }
 
-}
-
-@media screen and (min-width: 500px) and (max-width: 799) {
-    .content {
-        width: 750px;
-    }
-
-    .uhstuff {
-        width: 100%;
-    }
-
-    .wrapper {
-        width: 100%;
-    }
-
-    h1 {
-        width: 750px;
-    }
-
-    video {
-        width: 750px;
-        padding-top: 2px;
-        padding-bottom: 45px;
-    }
-
-    .name {
-        padding-left: 20px;
-    }
-
-    .wrapper {
-        width: 750px;
-    }
-
-    .wrapper2 {
-        float: none;
-        width: 750px;
-        margin: auto;
-    }
-
-    #hamburger {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        height: 35px;
-        width: 35px;
-        padding-top: 30px;
-    }
-
-    #nav {
-        float: none;
-        overflow: hidden;
-        width: 100%;
-        height: 0;
-        background-color: #ccc;
-        -webkit-transition: height .5s;
-        transition: height .5s;
-    }
-
-    #nav.open {
-        height: 139px;
-        -webkit-transition: height .5s;
-        transition: height .5s;
-    }
-
-    #nav li {
-        display: block;
+    #nav-mobile ul li .activeState {
         text-align: center;
-        padding: 0;
-        margin: 1px 0;
-        line-height: 45px;
-        background-color: #3C504E;
+        height: 30px;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: -15px;
     }
 
-    #nav li a {
-        display: block;
-        background-color: #FFF;
-        border-bottom: 1px solid #666;
-    }
-
-    .intro {
-        width: 100%;
-        margin: auto;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        box-sizing: border-box;
-    }
-
-    .intro-p {
-        width: 100%;
-        float: none;
-        font-size: 15px;
-        line-height: 25px;
-    }
-
-    .stuff {
-    float: none;
 }
 

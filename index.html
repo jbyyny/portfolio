@@ -2,7 +2,6 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-
         <title>Jen Byyny • Product Designer</title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
@@ -23,14 +22,15 @@
 
           gtag('config', 'UA-74650149-1');
         </script>
-
     </head>
 
     <body>
         <div class="uh">
             <div class="uhstuff">
-            <a href="index.html"><div class="name">Jen Byyny</div></a>
-            <div class="role">Senior Product Design Lead</div>
+            <a href="index.html">
+            <div class="name">Jen Byyny</div></a>
+            <div class="role">Senior Product Design Lead
+            </div>
 
            <div id="content">
                 <div id="hamburger">
@@ -38,34 +38,67 @@
                 </div>
 
             <div id="nav">
+            <!-- large screen only menu and dropdown  -->
                 <ul>
-                    <li><a class="activeState" href="index.html">Projects</a></li>
+                    <li><a class="activeState dropbtn">Projects</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="more.html">More Designs</a></li>
+                </ul>
+                <div id="myDropdown" class="projects-content">
+                    <a href="looker.html">Looker Data Sciences</a>
+                    <a href="finance.html">Yahoo Finance</a>
+                    <a href="recommends.html">Yahoo Recommends</a>
+                    <a href="picknroll.html">Yahoo Editorial Analytics</a>
+                    <a href="jumpbunch.html">JumpBunch</a>
+                    <a href="voices.html">Yahoo Voices</a>
+                    <a href="guise.html">Guise</a>
+                  </div>
+            </div>
+            <!-- second menu for mobile only
+            activated on the right media queries -->
+            <div id="nav-mobile">
+                <ul>
+                    <li><a class="activeState dropbtn">Projects</a>
+                    <!-- embedded dropdown for mobile only -->
+                        <li><a href="looker.html">Looker Data Sciences</a>
+                        </li>
+                        <li><a href="finance.html">Yahoo Finance</a></li>
+                        <li><a href="recommends.html">Yahoo Recommends</a></li>
+                        <li><a href="picknroll.html">Yahoo Editorial Analytics</a></li>
+                        <li><a href="jumpbunch.html">JumpBunch</a></li>
+                        <li><a href="voices.html">Yahoo Voices</a></li>
+                        <li><a href="guise.html">Guise</a></li>
+                    </li>
                     <li><a href="experience.html">Experience</a></li>
                     <li><a href="more.html">More Designs</a></li>
                 </ul>
             </div>
-          </div>
         </div>
     </div>
+</div>
         
         <div class="intro">
             <p class="intro-p">I am a multi-platform, end-to-end Product/UX/Visual Design Lead with over twelve years of experience. My background includes degrees in business marketing and media design, roles in art direction in advertising and interactive experiences for web and mobile. I am a system thinker and love to ask, "What if?" I get excited about leading teams on projects, brainstorming new features and creating strategic solutions with designers, engineers and product partners. </p>
         </div>
+        <br />
 
         <div class="project body">
             <h1><a href="looker.html">Looker Data Sciences</a></h1>
-            <p>Saas BI data analytics tool and platform for analysts and business users</p>
-            <div class="splash"><a href="looker.html"><img src="images/dash_01a.png" width="1000"/></div>
+<!--             <p>Saas BI data analytics tool and platform for analysts and business users</p>
+            <div class="splash"><a href="looker.html"><img src="images/dash_01a.png" width="1000"/></div> -->
+
+            <p class="list-header">Saas BI data analytics tool and platform for analysts and business users.</p>
+            <div class="splash"><a href="looker.html"><img src="images/looker-notifications.png" width="1000"/></div>
             <br />
             <br />
             <h1><a href="finance.html">Yahoo Finance</a></h1>
-            <p>Desktop, Apple iWatch and Native Mobile Designs for one of the most visited financial sites on the web</p>
+            <p class="list-header">Desktop, Apple iWatch and Native Mobile Designs for one of the most visited financial sites on the web</p>
             <div class="splash"><a href="finance.html"><img src="images/finance-mobile.png" width="1000"/></div>
             </br >
             <div class="splash"><a href="finance.html"><img src="images/finance-watch.png" width="1000"/></div>
             </br >
             <h1><a href="recommends.html">Yahoo Recommends</a></h1>
-            <p>B2B Content Syndication Analytics for Yahoo Partners</p>
+            <p class="list-header">B2B Content Syndication Analytics for Yahoo Partners</p>
             <div class="splash"><a href="recommends.html"><img src="images/recommends-splash.png" width="1000"/></div>
             <video width="1000" controls autoplay>
                 <source src="images/recommends.mp4" type="video/mp4">
@@ -75,35 +108,40 @@
             </br >
             </br >
             <h1><a href="jumpbunch.html">JumpBunch</a></h1>
-            <p>Children's Fitness Program Responsive Website</p>
+            <p class="list-header">Children's Fitness Program Responsive Website</p>
             <div class="splash"><a href="jumpbunch.html"><img src="images/jumpbunch-home.png" width="1000"/></div>
             </br >
             </br >
             <h1><a href="voices.html">Yahoo Voices</a></h1>
-            <p>Responsive Media Publishing Site for Yahoo Users</p>
+            <p class="list-header">Responsive Media Publishing Site for Yahoo Users</p>
             <div class="splash"><img src="images/voices-home.png" width="1000"/></div>
             </br >
             </br >
-            <div class="blank"><p class="specialties">Design Specialties </p>
+            <div class="blank"><p class="list-header">Design Specialties </p>
             <h4>Design Leadership, Product Design, UX Design and Strategy,  Design Thinking, Interaction Design, Service Design, System Design, Data Informed Design, Usability Testing, Visual Design, Art Direction, Branding, Marketing, HTML/CSS </h4>
             </div>
             </br >
             </br >
             <h1><a href="picknroll.html">Yahoo Editorial Insights</a></h1>
-            <p>Content Performance Editorial Tool</p>
+            <p class="list-header">Content Performance Editorial Analytics</p>
             <div class="splash"><img src="images/pnr-desktop1.png" width="1000"/></div>
             </br >
-            <div class="blank"><p class="specialties">Design Project Types </p>
-            <h4>Large Scale Websites, Mobile Web, Native Mobile Apps, Enterprise Tools, Responsive Design </h4>
+            <div class="blank"><p class="list-header">Design Project Types </p>
+            <h4>Large Scale Websites, Mobile Web, Native Mobile Apps, Enterprise Tools, Responsive Design and interested in Natural User Interfaces</h4>
             </div>
             </br >
+            </br >
             <h1><a href="guise.html">Guise Mobile App</a></h1>
-            <p>Purchase a garment or accessory anytime, anywhere (concept)</p>
+            <p class="list-header">Purchase a garment or accessory anytime, anywhere (concept)</p>
             <div class="splash"><a href="guise.html"><img src="images/guise-splash.png" width="1000"/></div>
             </br >
             </br >
             </br >
         </div>
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

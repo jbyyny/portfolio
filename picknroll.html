@@ -37,21 +37,50 @@
                 </div>
 
             <div id="nav">
+            <!-- large screen only menu and dropdown  -->
                 <ul>
-                    <li><a class="activeState" href="index.html">Projects</a></li>
+                    <li><a class="activeState dropbtn">Projects</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="more.html">More Designs</a></li>
+                </ul>
+                <div id="myDropdown" class="projects-content">
+                    <a href="looker.html">Looker Data Sciences</a>
+                    <a href="finance.html">Yahoo Finance</a>
+                    <a href="recommends.html">Yahoo Recommends</a>
+                    <a href="picknroll.html">Yahoo Editorial Analytics</a>
+                    <a href="jumpbunch.html">JumpBunch</a>
+                    <a href="voices.html">Yahoo Voices</a>
+                    <a href="guise.html">Guise</a>
+                  </div>
+            </div>
+            <!-- second menu for mobile only
+            activated on the right media queries -->
+            <div id="nav-mobile">
+                <ul>
+                    <li><a class="activeState dropbtn">Projects</a>
+                    <!-- embedded dropdown for mobile only -->
+                        <li><a href="looker.html">Looker Data Sciences</a>
+                        </li>
+                        <li><a href="finance.html">Yahoo Finance</a></li>
+                        <li><a href="recommends.html">Yahoo Recommends</a></li>
+                        <li><a href="picknroll.html">Yahoo Editorial Analytics</a></li>
+                        <li><a href="jumpbunch.html">JumpBunch</a></li>
+                        <li><a href="voices.html">Yahoo Voices</a></li>
+                        <li><a href="guise.html">Guise</a></li>
+                    </li>
                     <li><a href="experience.html">Experience</a></li>
                     <li><a href="more.html">More Designs</a></li>
                 </ul>
             </div>
-          </div>
         </div>
     </div>
+</div>
 
         <div class="project body">
             <p class="project-info">Yahoo Editorial Insights is an internal publishing app and desktop web tool for editors to program content across all Yahoo global sites. This role-based tool allows editors, managers and editors-in-chief to publish, monitor, manage and promote original content, provider content and content published on tumblr.</p>
             <br />
             <br />
-            <p>Editorial Insights Native Mobile App</p>
+            <p class="list-header">Editorial Insights Native Mobile App</p>
             
             <div class="splash"><img src="images/ed-app-screens.png" width="1000"/></div>
             <div class="splash"><img src="images/ed-app6.png" width="1000"/></div>
@@ -59,7 +88,7 @@
             <div class="splash"><img src="images/ed-app7.png" width="1000"/></div>
             <div class="splash"><img src="images/pnr-mobile.png" width="1000"/></div>
 
-            <p>Editor Insights desktop tool experience</p>
+            <p class="list-header">Editor Insights desktop tool experience</p>
             <div class="splash"><img src="images/pnr-desktop1.png" width="1000"/></div>
             <div class="splash"><img src="images/pnr-desktop2.png" width="1000"/></div>
             <div class="splash"><img src="images/pnr-desktop3.png" width="1000"/></div>
@@ -73,7 +102,7 @@
             <div class="splash"><img src="images/hoobeat3.png" width="1000"/></div>
             <div class="splash"><img src="images/hoobeat4.png" width="1000"/></div>
 
-            <p>Process
+            <p class="list-header">Process
                 <ul>
                     <li>Team of 3 UX/UI designers who proactively designed an app with features requested by editors. Created a tool prototype that aligned with the company goal of improving content performance across the network</li>
                     <li>My role: Product design lead and all analytics designs/UI</li>
@@ -87,13 +116,20 @@
                     <li>Project added to official roadmap the following quarter</li>
                 </ul>
             </p>
-            <p>Process Images</p>
+            <br />
+            <p class="list-header">Process Images</p>
             <div class="splash"><img src="images/editorial-flow.png" width="1000"/></div>
             <div class="splash"><img src="images/ed-app2.png" width="1000"/></div>
             <div class="splash"><img src="images/ed-app3.png" width="1000"/></div>
             <div class="splash"><img src="images/ed-app4.png" width="1000"/></div>
             <div class="splash"><img src="images/ed-app5.png" width="1000"/></div>
+            </br >
+            </br >
         </div>
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
